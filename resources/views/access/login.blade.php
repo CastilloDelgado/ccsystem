@@ -14,6 +14,8 @@
                 <input type="checkbox" value="remember-me"> Recordar mi cuenta
             </label>
         </div>
-        <button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar Sesión</bu </form>
+        <a href="/">
+        <button class="w-100 btn btn-lg btn-primary" url="/">Iniciar Sesión</bu </form>
+        </a>
 </main>
 @endsection

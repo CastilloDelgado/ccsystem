@@ -26,7 +26,30 @@
                 <ul>
                     <li><a href="/products/create">Crear Producto</a></li>
                     <li><a href="/products">Listar Productos</a></li>
-                    <li><a href="/products/report">Reporte de Productos</a></li>
+                </ul>
+                <h3>Ventas</h3>
+                <ul>
+                    <li><a href="/sales/create">Crear Venta</a></li>
+                    <li><a href="/sales">Listar Ventas</a></li>
+                </ul>
+                <h3>Compras</h3>
+                <ul>
+                    <li><a href="/">Crear Compra</a></li>
+                    <li><a href="/">Listar Compras</a></li>
+                </ul>
+                <h3>Movimientos</h3>
+                <ul>
+                    <li><a href="/">Crear Ingreso</a></li>
+                    <li><a href="/">Crear Egreso</a></li>
+                    <li><a href="/">Listar Movimientos</a></li>
+                </ul>
+                <h3>Reportes</h3>
+                <ul> 
+                    <li><a href="/reports/products">Productos</a></li>
+                    <li><a href="/">Ventas </a></li>
+                    <li><a href="/">Compras</a></li>
+                    <li><a href="/">Movimientos</a></li>
+                    <li><a href="/">Usuarios</a></li>
                 </ul>
             </div>
             <div class="col-10 p-4 app-module">

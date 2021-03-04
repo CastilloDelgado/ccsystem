@@ -17,10 +17,13 @@ Route::get('/', function () {
     return view('layouts.appMain');
 });
 
-Route::resource('products', ProductController::class);
+Route::resources([
+    'products' => ProductController::class,
+    'sales' => SaleController::class
+]);
 
-Route::get('/product/report', function() {
-    return view('products.report');
+Route::get('/reports/products', function() {
+    return view('reports.products');
 });
 
 Route::get('/login', function () {
