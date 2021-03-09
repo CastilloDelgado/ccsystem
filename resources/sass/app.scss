@@ -67,10 +67,15 @@ body {
     a {
         font-size: 13px;
         color: white;
+        text-decoration: none;
     }
 
     h3 {
         font-size: 17px;
+    }
+
+    ul {
+        list-style-type: square;
     }
 }
 

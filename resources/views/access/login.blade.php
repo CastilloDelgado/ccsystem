@@ -15,7 +15,8 @@
             </label>
         </div>
         <a href="/">
-        <button class="w-100 btn btn-lg btn-primary" url="/">Iniciar Sesión</bu </form>
+            <button class="w-100 btn btn-lg btn-primary" url="/">Iniciar Sesión</button>
         </a>
+    </form>
 </main>
 @endsection

@@ -19,12 +19,13 @@ class CreateProductsTable extends Migration
             $table->string('name');
             $table->text('description');
             $table->text('image_url');
+            $table->string('brand');
             $table->string('family');
-            $table->double('price');
             $table->double('cost');
+            $table->double('price');
+            $table->string('supplier');
             $table->string('uom');
             $table->double('inventory');
-
             $table->timestamps();
         });
     }

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Sale;
+use App\Product;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
@@ -23,9 +24,14 @@ class SaleController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-        return view('sales.create');
+        $quantity = $request->input('all');
+        $products = Product::all();
+        return view('sales.create', [
+            'products' => $products,
+            'quantity' => $quantity
+        ]);
     }
 
     /**

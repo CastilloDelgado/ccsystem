@@ -74,10 +74,15 @@ body {
 .side-bar a {
   font-size: 13px;
   color: white;
+  text-decoration: none;
 }
 
 .side-bar h3 {
   font-size: 17px;
+}
+
+.side-bar ul {
+  list-style-type: square;
 }
 
 .app-module {

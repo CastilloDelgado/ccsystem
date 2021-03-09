@@ -22,6 +22,9 @@
     <div class="container-fluid h-100">
         <div class="row h-100">
             <div class="col-2 p-4 side-bar">
+                <div class="row w-100 justify-content-md-center m-0">
+                    <img class="mb-4 col-11" src={{ url('/assets/images/logo.png') }} alt="">
+                </div>
                 <h3>Productos</h3>
                 <ul>
                     <li><a href="/products/create">Crear Producto</a></li>
@@ -43,8 +46,13 @@
                     <li><a href="/">Crear Egreso</a></li>
                     <li><a href="/">Listar Movimientos</a></li>
                 </ul>
+                <h3>Cuentas</h3>
+                <ul>
+                    <li><a href="/">Crear Cuentas</a></li>
+                    <li><a href="/">Listar Cuentas</a></li>
+                </ul>
                 <h3>Reportes</h3>
-                <ul> 
+                <ul>
                     <li><a href="/reports/products">Productos</a></li>
                     <li><a href="/">Ventas </a></li>
                     <li><a href="/">Compras</a></li>
